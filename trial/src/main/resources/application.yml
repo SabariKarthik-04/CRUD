@@ -1,13 +1,13 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: Ananth
-    url: jdbc:mysql://localhost:3306/student
-    username: root
+    password: {YOUR MYSQLDB PASSWORD}
+    url: {YOUR MYSQLDB LINK}
+    username: {YOUR MYSQLDB USERNAME}
   data:
     mongodb:
-      uri: "mongodb+srv://sabarikarthiks04:sabari_2004@cluster0.d8rcwtv.mongodb.net/"
-      database: "Student"
+      uri: {YOUR MANGODB URI}
+      database: {YOUR MANGODB NAME}
   main:
     allow-bean-definition-overriding: true
 
